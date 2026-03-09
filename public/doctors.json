@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Dr. Sabbir Rahman",
+    "about": "Dr. Sabbir Rahman is a highly experienced Cardiologist with 12 years of expertise in diagnosing and treating heart diseases. He specializes in interventional cardiology and preventive cardiology.",
     "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400",
     "education": "MBBS, MD - Cardiology, BSMMU",
     "speciality": "Cardiologist",
@@ -11,6 +12,7 @@
   {
     "id": 2,
     "name": "Dr. Farhan Hossain",
+    "about": "Dr. Farhan Hossain is a renowned Neurologist with 9 years of experience treating disorders of the brain and nervous system. He is known for his expertise in epilepsy and stroke management.",
     "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400",
     "education": "MBBS, MS - Neurology, Dhaka Medical College",
     "speciality": "Neurologist",
@@ -20,6 +22,7 @@
   {
     "id": 3,
     "name": "Dr. Nusrat Jahan",
+    "about": "Dr. Nusrat Jahan is a leading Gynecologist with 15 years of experience in women's health. She specializes in high-risk pregnancy and infertility treatment.",
     "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400",
     "education": "MBBS, FCPS - Gynecology, Sir Salimullah Medical College",
     "speciality": "Gynecologist",
@@ -29,6 +32,7 @@
   {
     "id": 4,
     "name": "Dr. Rafiqul Islam",
+    "about": "Dr. Rafiqul Islam is an expert Orthopedic Surgeon with 11 years of experience in bone, joint, and muscle disorders. He specializes in joint replacement and sports injury treatment.",
     "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400",
     "education": "MBBS, MS - Orthopedics, Chittagong Medical College",
     "speciality": "Orthopedic Surgeon",
@@ -38,6 +42,7 @@
   {
     "id": 5,
     "name": "Dr. Sabrina Sultana",
+    "about": "Dr. Sabrina Sultana is a skilled Dermatologist with 7 years of experience in skin, hair, and nail disorders. She specializes in cosmetic dermatology and laser treatments.",
     "image": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400",
     "education": "MBBS, MD - Dermatology, BSMMU",
     "speciality": "Dermatologist",
@@ -47,6 +52,7 @@
   {
     "id": 6,
     "name": "Dr. Imran Karim",
+    "about": "Dr. Imran Karim is a dedicated Pediatrician with 13 years of experience in child healthcare. He specializes in newborn care, childhood vaccinations, and pediatric infectious diseases.",
     "image": "https://images.unsplash.com/photo-1651008376811-b90baee60c1f?w=400",
     "education": "MBBS, FCPS - Pediatrics, Dhaka Shishu Hospital",
     "speciality": "Pediatrician",
@@ -56,6 +62,8 @@
   {
     "id": 7,
     "name": "Dr. Tahmina Begum",
+    "about": "Dr. Tahmina Begum is a compassionate Psychiatrist with 10 years of experience in mental health. She specializes in depression, anxiety disorders, and behavioral therapy.",
+    "availableDays": ["Sunday", "Wednesday", "Friday"],
     "image": "https://images.unsplash.com/photo-1643297654416-05795d62e39c?w=400",
     "education": "MBBS, MD - Psychiatry, National Institute of Mental Health",
     "speciality": "Psychiatrist",
@@ -65,6 +73,7 @@
   {
     "id": 8,
     "name": "Dr. Zahirul Haque",
+    "about": "Dr. Zahirul Haque is a highly skilled Urologist with 16 years of experience in urinary tract and male reproductive system disorders. He specializes in kidney stones and prostate treatment.",
     "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400",
     "education": "MBBS, MS - Urology, BSMMU",
     "speciality": "Urologist",
@@ -74,6 +83,7 @@
   {
     "id": 9,
     "name": "Dr. Razia Khatun",
+    "about": "Dr. Razia Khatun is an experienced Ophthalmologist with 8 years of expertise in eye care and vision disorders. She specializes in cataract surgery and glaucoma treatment.",
     "image": "https://images.unsplash.com/photo-1614608682850-e0d6ed316d47?w=400",
     "education": "MBBS, FCPS - Ophthalmology, Ispahani Islamia Eye Institute",
     "speciality": "Ophthalmologist",

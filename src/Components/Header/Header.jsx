@@ -1,5 +1,5 @@
 import Logo from "../../assets/frame1.png";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 
 
 const Header = () => {
@@ -28,16 +28,16 @@ const Header = () => {
             tabIndex="-1"
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2  shadow"
           >
-            <Link to={"/"}>
+            <NavLink to={"/"}>
                 <li  className="mr-10 px-3 py-2 border-2 rounded-sm duration-200 border-transparent hover:border-[#176ae5] hover:text-[#176ae5] ">
                     Home
                 </li>
-            </Link>
-            <Link to={"/readlist"}>
-                <li  className="mr-10 px-3 py-2 border-2 rounded-sm duration-200 border-transparent hover:border-[#176ae5] hover:text-[#176ae5] ">
+            </NavLink>
+            <NavLink to={"/bookings"}>
+                <li  className="active mr-10 px-3 py-2 border-2 rounded-sm duration-200 border-transparent hover:border-[#176ae5] hover:text-[#176ae5] ">
                     My-bookings
                 </li>
-            </Link>
+            </NavLink>
             <li  className="mr-10 px-3 py-2 border-2 rounded-sm duration-200 border-transparent hover:border-[#176ae5] hover:text-[#176ae5] ">
               Blogs
             </li>
@@ -50,21 +50,21 @@ const Header = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <Link to={'/'}>
+          <NavLink to={'/'}>
             <li className="mr-10 px-3 py-2 border-2 rounded-sm duration-200 border-transparent hover:border-[#176ae5] hover:text-[#176ae5] ">
                 Home
             </li>
-          </Link>
-          <Link to={"/readlist"}>
+          </NavLink>
+          <NavLink to={"/bookings"}>
               <li className="mr-10 px-3 py-2 border-2 rounded-sm duration-200 border-transparent hover:border-[#176ae5] hover:text-[#176ae5] ">
                   My-Bookings
             </li>
-          </Link>
+          </NavLink>
           <li className="mr-10 px-3 py-2 border-2 rounded-sm duration-200 border-transparent hover:border-[#176ae5] hover:text-[#176ae5] ">
             Blogs
           </li>
           <li className="mr-10 px-3 py-2 border-2 rounded-sm duration-200 border-transparent hover:border-[#176ae5] hover:text-[#176ae5] ">
-            Contact Us
+              Contact Us
           </li>
         </ul>
       </div>
