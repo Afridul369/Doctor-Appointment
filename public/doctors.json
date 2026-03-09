@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Sabbir Rahman",
+    "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400",
+    "education": "MBBS, MD - Cardiology, BSMMU",
+    "speciality": "Cardiologist",
+    "experience": 12,
+    "registrationNumber": "BMDC-A-45231"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Farhan Hossain",
+    "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400",
+    "education": "MBBS, MS - Neurology, Dhaka Medical College",
+    "speciality": "Neurologist",
+    "experience": 9,
+    "registrationNumber": "BMDC-A-38821"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Nusrat Jahan",
+    "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400",
+    "education": "MBBS, FCPS - Gynecology, Sir Salimullah Medical College",
+    "speciality": "Gynecologist",
+    "experience": 15,
+    "registrationNumber": "BMDC-A-29134"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Rafiqul Islam",
+    "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400",
+    "education": "MBBS, MS - Orthopedics, Chittagong Medical College",
+    "speciality": "Orthopedic Surgeon",
+    "experience": 11,
+    "registrationNumber": "BMDC-A-51678"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Sabrina Sultana",
+    "image": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400",
+    "education": "MBBS, MD - Dermatology, BSMMU",
+    "speciality": "Dermatologist",
+    "experience": 7,
+    "registrationNumber": "BMDC-A-62341"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Imran Karim",
+    "image": "https://images.unsplash.com/photo-1651008376811-b90baee60c1f?w=400",
+    "education": "MBBS, FCPS - Pediatrics, Dhaka Shishu Hospital",
+    "speciality": "Pediatrician",
+    "experience": 13,
+    "registrationNumber": "BMDC-A-34512"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Tahmina Begum",
+    "image": "https://images.unsplash.com/photo-1643297654416-05795d62e39c?w=400",
+    "education": "MBBS, MD - Psychiatry, National Institute of Mental Health",
+    "speciality": "Psychiatrist",
+    "experience": 10,
+    "registrationNumber": "BMDC-A-47823"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Zahirul Haque",
+    "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400",
+    "education": "MBBS, MS - Urology, BSMMU",
+    "speciality": "Urologist",
+    "experience": 16,
+    "registrationNumber": "BMDC-A-21956"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Razia Khatun",
+    "image": "https://images.unsplash.com/photo-1614608682850-e0d6ed316d47?w=400",
+    "education": "MBBS, FCPS - Ophthalmology, Ispahani Islamia Eye Institute",
+    "speciality": "Ophthalmologist",
+    "experience": 8,
+    "registrationNumber": "BMDC-A-59307"
+  }
+]
