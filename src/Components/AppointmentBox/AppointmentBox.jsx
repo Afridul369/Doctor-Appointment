@@ -1,14 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { BsExclamationSquare } from 'react-icons/bs'
 
-const AppointmentBox = () => {
+const AppointmentBox = ({allschedule}) => {
+      const today = new Date().toLocaleDateString('en-US', { weekday: 'long' })
+      const [available,setAvailable] = useState([])
+      console.log(available)
+      useEffect(()=>{
+        const b = allschedule.filter(([day,time])=> day !== today )
+        const newBar = [...available].b
+        setAvailable(newBar)
+      },[])
+      
   return (
     <div className='my-12 p-8 bg-white rounded-3xl'>
         <h1 className='text-2xl font-extrabold text-center'>Book an Appointment</h1>
         <div className="border-t border-dashed border-[#0F0F0F20] my-5"></div>
         <div className="flex justify-between">
             <p className='font-bold'>Availability</p>
-            <p className='px-3 rounded-2xl border  border-[#5bbb75]  bg-[#e6f5ea] text-[#5bbb75]'>Doctor Available Today</p>
+            {available ?
+              <p className='px-3 rounded-2xl border border-[#5bbb75] bg-[#e6f5ea] text-[#5bbb75]'
+              >Doctor Available Today</p> : <p className='px-3 rounded-2xl border  border-red-500  bg-red-200 text-red-500'>Not Available Today</p>  
+            }
         </div>
         <div className="border-t  my-5 border-[#0F0F0F20]"></div>
         <div 

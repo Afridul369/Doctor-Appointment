@@ -7,7 +7,16 @@
     "education": "MBBS, MD - Cardiology, BSMMU",
     "speciality": "Cardiologist",
     "experience": 12,
-    "registrationNumber": "BMDC-A-45231"
+    "registrationNumber": "BMDC-A-45231",
+    "schedule": {
+      "Sunday": "10:00 AM - 1:00 PM",
+      "Monday": "Off",
+      "Tuesday": "3:00 PM - 6:00 PM",
+      "Wednesday": "10:00 AM - 1:00 PM",
+      "Thursday": "Off",
+      "Friday": "Off",
+      "Saturday": "9:00 AM - 12:00 PM"
+    }
   },
   {
     "id": 2,
@@ -17,7 +26,16 @@
     "education": "MBBS, MS - Neurology, Dhaka Medical College",
     "speciality": "Neurologist",
     "experience": 9,
-    "registrationNumber": "BMDC-A-38821"
+    "registrationNumber": "BMDC-A-38821",
+    "schedule": {
+      "Sunday": "Off",
+      "Monday": "2:00 PM - 5:00 PM",
+      "Tuesday": "Off",
+      "Wednesday": "Off",
+      "Thursday": "11:00 AM - 2:00 PM",
+      "Friday": "Off",
+      "Saturday": "4:00 PM - 7:00 PM"
+    }
   },
   {
     "id": 3,
@@ -27,7 +45,16 @@
     "education": "MBBS, FCPS - Gynecology, Sir Salimullah Medical College",
     "speciality": "Gynecologist",
     "experience": 15,
-    "registrationNumber": "BMDC-A-29134"
+    "registrationNumber": "BMDC-A-29134",
+    "schedule": {
+      "Sunday": "9:00 AM - 12:00 PM",
+      "Monday": "Off",
+      "Tuesday": "Off",
+      "Wednesday": "3:00 PM - 6:00 PM",
+      "Thursday": "Off",
+      "Friday": "10:00 AM - 1:00 PM",
+      "Saturday": "Off"
+    }
   },
   {
     "id": 4,
@@ -37,7 +64,16 @@
     "education": "MBBS, MS - Orthopedics, Chittagong Medical College",
     "speciality": "Orthopedic Surgeon",
     "experience": 11,
-    "registrationNumber": "BMDC-A-51678"
+    "registrationNumber": "BMDC-A-51678",
+    "schedule": {
+      "Sunday": "Off",
+      "Monday": "Off",
+      "Tuesday": "10:00 AM - 2:00 PM",
+      "Wednesday": "Off",
+      "Thursday": "3:00 PM - 7:00 PM",
+      "Friday": "Off",
+      "Saturday": "8:00 AM - 11:00 AM"
+    }
   },
   {
     "id": 5,
@@ -47,7 +83,16 @@
     "education": "MBBS, MD - Dermatology, BSMMU",
     "speciality": "Dermatologist",
     "experience": 7,
-    "registrationNumber": "BMDC-A-62341"
+    "registrationNumber": "BMDC-A-62341",
+     "schedule": {
+      "Sunday": "11:00 AM - 2:00 PM",
+      "Monday": "Off",
+      "Tuesday": "Off",
+      "Wednesday": "Off",
+      "Thursday": "4:00 PM - 7:00 PM",
+      "Friday": "9:00 AM - 12:00 PM",
+      "Saturday": "Off"
+    }
   },
   {
     "id": 6,
@@ -57,7 +102,16 @@
     "education": "MBBS, FCPS - Pediatrics, Dhaka Shishu Hospital",
     "speciality": "Pediatrician",
     "experience": 13,
-    "registrationNumber": "BMDC-A-34512"
+    "registrationNumber": "BMDC-A-34512",
+    "schedule": {
+      "Sunday": "Off",
+      "Monday": "9:00 AM - 12:00 PM",
+      "Tuesday": "Off",
+      "Wednesday": "3:00 PM - 6:00 PM",
+      "Thursday": "Off",
+      "Friday": "Off",
+      "Saturday": "10:00 AM - 1:00 PM"
+    }
   },
   {
     "id": 7,
@@ -68,7 +122,16 @@
     "education": "MBBS, MD - Psychiatry, National Institute of Mental Health",
     "speciality": "Psychiatrist",
     "experience": 10,
-    "registrationNumber": "BMDC-A-47823"
+    "registrationNumber": "BMDC-A-47823",
+    "schedule": {
+      "Sunday": "Off",
+      "Monday": "Off",
+      "Tuesday": "2:00 PM - 5:00 PM",
+      "Wednesday": "Off",
+      "Thursday": "10:00 AM - 1:00 PM",
+      "Friday": "Off",
+      "Saturday": "3:00 PM - 6:00 PM"
+    }
   },
   {
     "id": 8,
@@ -78,7 +141,16 @@
     "education": "MBBS, MS - Urology, BSMMU",
     "speciality": "Urologist",
     "experience": 16,
-    "registrationNumber": "BMDC-A-21956"
+    "registrationNumber": "BMDC-A-21956",
+     "schedule": {
+      "Sunday": "10:00 AM - 1:00 PM",
+      "Monday": "Off",
+      "Tuesday": "Off",
+      "Wednesday": "4:00 PM - 7:00 PM",
+      "Thursday": "Off",
+      "Friday": "9:00 AM - 11:00 AM",
+      "Saturday": "Off"
+    }
   },
   {
     "id": 9,
@@ -88,6 +160,15 @@
     "education": "MBBS, FCPS - Ophthalmology, Ispahani Islamia Eye Institute",
     "speciality": "Ophthalmologist",
     "experience": 8,
-    "registrationNumber": "BMDC-A-59307"
+    "registrationNumber": "BMDC-A-59307",
+    "schedule": {
+      "Sunday": "Off",
+      "Monday": "11:00 AM - 2:00 PM",
+      "Tuesday": "Off",
+      "Wednesday": "Off",
+      "Thursday": "Off",
+      "Friday": "3:00 PM - 6:00 PM",
+      "Saturday": "9:00 AM - 12:00 PM"
+    }
   }
 ]

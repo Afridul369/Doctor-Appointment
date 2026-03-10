@@ -1,7 +1,8 @@
-import React from 'react'
 
-const DetailsBox = ({data}) => {
-    const {name, image,education,registrationNumber} = data 
+
+const DetailsBox = ({data,allschedule}) => {
+    const {id,name, image,education,registrationNumber,schedule} = data 
+    
   return (
     <div className='p-8 my-4 w-full'>
         <div className="p-6 flex gap-10 bg-white rounded-3xl">
@@ -18,9 +19,12 @@ const DetailsBox = ({data}) => {
                 <div className="border-t border-dashed my-2"></div>
                 <div className="flex items-center gap-6 my-3">
                     <span className='font-bold'>Availability</span>
-                    <p className='px-4 py-1 rounded-3xl border-2 border-[#ffe5b8] text-[#ffa000] bg-[#fff6e6]'>Sunday</p>
-                    <p className='px-4 py-1 rounded-3xl border-2 border-[#ffe5b8] text-[#ffa000] bg-[#fff6e6]'>MondaY</p>
-                    <p className='px-4 py-1 rounded-3xl border-2 border-[#ffe5b8] text-[#ffa000] bg-[#fff6e6]'>Tuesday</p>
+                    {allschedule.map(([day, time]) => (
+                        <div key={day} className="flex items-center gap-1 justify-between p-2 rounded mb-2">
+                        <p className='px-2 py-1 rounded-3xl border-2 border-[#ffe5b8] text-[#ffa000] bg-[#fff6e6]'>{day}</p>
+                        <span className="text-green-500">{time}</span>
+                        </div>
+                    ))}
                 </div>
                 <div className="flex gap-8">
                     <span className='font-bold'>Consultation Fee:</span>
