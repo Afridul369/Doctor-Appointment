@@ -3,7 +3,7 @@ import React from 'react'
 const DetailsBox = ({data}) => {
     const {name, image,education,registrationNumber} = data 
   return (
-    <div className='p-8 my-4'>
+    <div className='p-8 my-4 w-full'>
         <div className="p-6 flex gap-10 bg-white rounded-3xl">
             <div className="">
                 <img src={image} alt=""  className='rounded-3xl  h-90 object-cover object-top ' />

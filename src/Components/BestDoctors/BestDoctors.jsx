@@ -4,7 +4,7 @@ import Doctor from '../Doctor/Doctor'
 const BestDoctors = () => {
     const [doctors,setDoctors] = useState([])
     const [displayed,setDisplayed] = useState([])
-    const [allShow,setAllShow] = useState([])
+    const [allShow,setAllShow] = useState(false)
     useEffect(()=>{
         fetch('doctors.json').then((res)=> res.json()).then(data=> 
             {setDoctors(data)
@@ -13,6 +13,7 @@ const BestDoctors = () => {
     },[])
     const handleShow = ()=>{
         setDisplayed(doctors)
+        setAllShow(true)
     }
 
   return (
@@ -27,12 +28,12 @@ const BestDoctors = () => {
                     displayed.map(doctor=> <Doctor key={doctor.id} doctor={doctor}></Doctor>)
                 }
             </div>
-            <div className="pt-12  flex justify-center">
+            {!allShow && (<div className="pt-12  flex justify-center">
                 <button 
                 onClick={handleShow}
                 className="btn btn-info bg-[#176ae5] rounded-3xl text-2xl px-12 py-7 text-white"
                 >View All Doctors</button>
-            </div>
+            </div>)}
         </div>
     </div>
   )

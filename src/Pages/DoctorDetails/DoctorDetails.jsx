@@ -1,5 +1,6 @@
 import { useLoaderData } from 'react-router'
 import DetailsBox from '../../Components/DetailsBox/DEtailsBox'
+import AppointmentBox from '../../Components/AppointmentBox/AppointmentBox'
 
 const DoctorDetails = () => {
     const data = useLoaderData()
@@ -15,7 +16,7 @@ const DoctorDetails = () => {
             <p className='my-4 px-64'>{about}</p>
         </div>
         <DetailsBox data={data}></DetailsBox>
-      
+        <AppointmentBox></AppointmentBox>
     </div>
   )
 }
