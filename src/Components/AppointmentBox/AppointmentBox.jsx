@@ -4,11 +4,13 @@ import { BsExclamationSquare } from 'react-icons/bs'
 const AppointmentBox = ({allschedule}) => {
       const today = new Date().toLocaleDateString('en-US', { weekday: 'long' })
       const [available,setAvailable] = useState([])
-      console.log(available)
+      const [isTodayAvailable, setIsTodayAvailable] = useState(false)
+      // console.log(available)
       useEffect(()=>{
-        const b = allschedule.filter(([day,time])=> day !== today )
-        const newBar = [...available].b
-        setAvailable(newBar)
+        const mismatch = allschedule.filter(([day])=> day !== today )
+        setAvailable(mismatch)
+        const todayExists = allschedule.some(([day]) => day === today)
+        setIsTodayAvailable(todayExists)
       },[])
       
   return (
@@ -17,7 +19,7 @@ const AppointmentBox = ({allschedule}) => {
         <div className="border-t border-dashed border-[#0F0F0F20] my-5"></div>
         <div className="flex justify-between">
             <p className='font-bold'>Availability</p>
-            {available ?
+            {isTodayAvailable ?
               <p className='px-3 rounded-2xl border border-[#5bbb75] bg-[#e6f5ea] text-[#5bbb75]'
               >Doctor Available Today</p> : <p className='px-3 rounded-2xl border  border-red-500  bg-red-200 text-red-500'>Not Available Today</p>  
             }

@@ -65,9 +65,11 @@ const Header = () => {
               Blogs
             </li>
           </NavLink>
-          <li className="mr-10 px-3 py-2 border-2 rounded-sm duration-200 border-transparent hover:border-[#176ae5] hover:text-[#176ae5] ">
+          <NavLink to={'/contact'}>
+            <li className="mr-10 px-3 py-2 border-2 rounded-sm duration-200 border-transparent hover:border-[#176ae5] hover:text-[#176ae5] ">
               Contact Us
-          </li>
+            </li>
+          </NavLink>
         </ul>
       </div>
       <div className="navbar-end flex gap-3 ">

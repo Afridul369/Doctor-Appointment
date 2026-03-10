@@ -8,6 +8,7 @@ const DoctorDetails = () => {
     // console.log(data)
     const {id,name, about,image,education,speciality,experience,registrationNumber} = data 
     const [allschedule, setAllSchedule] = useState([])
+    // console.log(allschedule)
     useEffect(() => {
     fetch('/doctors.json')
       .then(res => res.json())

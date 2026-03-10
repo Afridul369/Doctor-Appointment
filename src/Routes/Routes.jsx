@@ -43,7 +43,10 @@ export const router = createBrowserRouter([
             return doctor
           }
         },
-
     ]
   },
+      {
+      path: '*',
+      Component: ErrorPage
+      },
 ]);
