@@ -60,9 +60,11 @@ const Header = () => {
                   My-Bookings
             </li>
           </NavLink>
-          <li className="mr-10 px-3 py-2 border-2 rounded-sm duration-200 border-transparent hover:border-[#176ae5] hover:text-[#176ae5] ">
-            Blogs
-          </li>
+          <NavLink to={'/blogs'}>
+            <li className="mr-10 px-3 py-2 border-2 rounded-sm duration-200 border-transparent hover:border-[#176ae5] hover:text-[#176ae5] ">
+              Blogs
+            </li>
+          </NavLink>
           <li className="mr-10 px-3 py-2 border-2 rounded-sm duration-200 border-transparent hover:border-[#176ae5] hover:text-[#176ae5] ">
               Contact Us
           </li>

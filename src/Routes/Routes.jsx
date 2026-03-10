@@ -5,6 +5,9 @@ import Home from "../Pages/Home/Home";
 import Bookings from "../Pages/Bookings/Bookings";
 import DoctorDetails from "../Pages/DoctorDetails/DoctorDetails";
 import DoctorNotFound from "../Pages/DoctorNotFound/DoctorNotFound";
+import Blogs from "../Pages/Blogs/Blogs";
+import { Suspense } from "react";
+import Loading from "../Components/Loading/Loading";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +23,13 @@ export const router = createBrowserRouter([
         {
           path: '/bookings',
           Component: Bookings
+        },
+        {
+          path: '/blogs',
+          element: <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
+              <Blogs/>
+          </Suspense>,
+          loader: ()=> fetch('/blogs.json')
         },
         {
           path: '/doctordetails/:slug',

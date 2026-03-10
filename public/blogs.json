@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "question": "What is React and why is it used?",
+    "answer": "React is a JavaScript library developed by Facebook for building user interfaces. It is used because it allows developers to create reusable UI components, efficiently update the DOM using a virtual DOM, and build fast, dynamic single-page applications."
+  },
+  {
+    "id": 2,
+    "question": "What is the difference between state and props in React?",
+    "answer": "Props are read-only data passed from a parent component to a child component, while state is local data managed within a component itself. Props cannot be modified by the child component, but state can be updated using setState or useState hook, causing the component to re-render."
+  },
+  {
+    "id": 3,
+    "question": "What is the useState hook and how does it work?",
+    "answer": "useState is a React hook that allows functional components to manage local state. It returns an array with two elements: the current state value and a function to update it. When the state is updated, React re-renders the component with the new value. Example: const [count, setCount] = useState(0)."
+  },
+  {
+    "id": 4,
+    "question": "What is the useEffect hook and when should you use it?",
+    "answer": "useEffect is a React hook used to handle side effects in functional components such as fetching data, subscribing to events, or manually updating the DOM. It runs after every render by default, but you can control when it runs by passing a dependency array. An empty array [] means it runs only once on mount."
+  },
+  {
+    "id": 5,
+    "question": "What is the virtual DOM in React?",
+    "answer": "The virtual DOM is a lightweight JavaScript representation of the real DOM kept in memory. When state or props change, React creates a new virtual DOM, compares it with the previous one using a diffing algorithm, and updates only the changed parts in the real DOM. This makes React fast and efficient."
+  },
+  {
+    "id": 6,
+    "question": "What is React Router and why is it used?",
+    "answer": "React Router is a library that enables client-side routing in React applications. It allows navigation between different components without reloading the page, making the app feel like a multi-page application. It provides components like BrowserRouter, Route, Link, NavLink, and hooks like useNavigate and useParams."
+  },
+  {
+    "id": 7,
+    "question": "What is the difference between useNavigate and Link in React Router?",
+    "answer": "Link is a component used in JSX to create navigation links, similar to an anchor tag. useNavigate is a hook that returns a function used to navigate programmatically inside event handlers or functions. Use Link for simple navigation in UI and useNavigate when navigation depends on logic or conditions."
+  },
+  {
+    "id": 8,
+    "question": "What is the useParams hook in React Router?",
+    "answer": "useParams is a React Router hook that returns an object containing the dynamic parameters from the current URL. For example, if the route is /doctor/:id and the URL is /doctor/5, then useParams() returns { id: '5' }. It is useful for fetching specific data based on the URL."
+  },
+  {
+    "id": 9,
+    "question": "What is the useContext hook in React?",
+    "answer": "useContext is a React hook that allows components to consume data from a React Context without prop drilling. It accepts a context object created by React.createContext() and returns the current context value. It is useful for sharing global data like theme, language, or authentication state across components."
+  },
+  {
+    "id": 10,
+    "question": "What is the difference between useMemo and useCallback hooks?",
+    "answer": "useMemo is used to memoize the result of a calculation and returns a cached value, preventing expensive recalculations on every render. useCallback is used to memoize a function definition, preventing it from being recreated on every render. Both accept a dependency array and only recompute when dependencies change."
+  }
+]
